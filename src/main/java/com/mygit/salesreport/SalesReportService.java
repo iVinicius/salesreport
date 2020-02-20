@@ -98,6 +98,7 @@ public class SalesReportService {
                         (e1, e2) -> e1, LinkedHashMap::new));
 
         return sortedSeller.entrySet().iterator().next().getKey();
+
     }
 
     private Integer returnCountOfClients(MessageExtractor extractor){
